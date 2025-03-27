@@ -1,71 +1,39 @@
-# daleresume2
-Project Name: Welsh Phrases Computing Quiz Website
+Personal Resume Website - README
 
-Table of Contents
+Project Overview
 
-Introduction
+This is a personal resume website built using HTML, CSS, and GitHub Pages. It provides information about my experience, skills, and contact details. The site is fully responsive and accessible on different devices.
 
-Features
+Live Demo
 
-User Stories
+View the website here (Replace with your GitHub Pages link if deployed)
 
-Wireframes
+Folder Structure
 
-Technologies Used
-
-Testing
-
-Bugs & Fixes
-
-Deployment
-
-Credits
-
-Introduction
-
-This project is an interactive quiz website designed to help users learn Welsh phrases related to computing. It consists of a homepage and three quiz pages, each focusing on different computing concepts in Welsh.
+|-- assets/          # Additional resources (if any)
+|-- images/          # All images used in the website
+|-- Wireframe1.png   # Homepage wireframe
+|-- Wireframe2.png   # Experience page wireframe
+|-- Wireframe3.png   # Contact page wireframe
+|-- contact.html     # Contact page
+|-- experiences.html # Experience page
+|-- index.html       # Homepage
+|-- styles.css       # Main CSS file
+|-- README.md        # This document
 
 Features
 
-Homepage: Provides navigation links to three quiz pages.
+ Fully Responsive – Works on desktop, tablet, and mobile devices. Clear Navigation – Links between all sections work correctly. Accessible Design – Uses semantic HTML and good contrast for readability. CV Download – Provides a button to download my CV. Wireframes Included – Displays the original design plans.
 
-Quiz Pages: Each page contains a multiple-choice quiz with interactive feedback.
+ Technologies Used
 
-Responsive Design: Optimized for desktop, tablet, and mobile devices.
+HTML5 – For structuring content.
 
-User-Friendly Navigation: Ensures easy access to all quiz sections.
+CSS3 – For styling and responsiveness.
 
-User Stories
+GitHub Pages – For hosting the website.
 
-As a student, I want to learn computing terms in Welsh through an engaging quiz.
-
-As a teacher, I want to recommend an easy-to-use tool for students to test their knowledge.
-
-As a casual learner, I want a fun and interactive way to pick up basic Welsh computing vocabulary.
-
-As a mobile user, I want the website to work seamlessly on my phone.
-
-As a visually impaired user, I want clear text and proper contrast to improve accessibility.
-
-Wireframes
-
-(Wireframe images should be inserted here)
-
-Technologies Used
-
-HTML5 - Structuring content
-
-CSS3 - Styling and responsive design
-
-JavaScript - Quiz functionality and interactions
-
-Git & GitHub - Version control and hosting
-
-Testing
-
-The website has undergone extensive testing to ensure smooth functionality across different devices and browsers.
-
-Test Plan
+ Testing Plan
 
 Test ID
 
@@ -85,13 +53,13 @@ Comments
 
 Homepage Links
 
-Click on each navigation link (Experience, Contact) from the Homepage.
+Click on navigation links (Experience, Contact)
 
-All links navigate to the correct pages.
+Navigates correctly
 
-Goes to page.
+Works as expected
 
-Pass
+ Pass
 
 
 
@@ -99,13 +67,13 @@ Pass
 
 Experience Page Links
 
-Click on the "Home" and "Contact" navigation links from the Experience Page.
+Click on navigation links
 
-Links navigate to Homepage and Contact page respectively.
+Navigates correctly
 
-Goes to page.
+Works as expected
 
-Pass
+ Pass
 
 
 
@@ -113,13 +81,13 @@ Pass
 
 Contact Page Links
 
-Click on the "Home" and "Experience" navigation links from the Contact Page.
+Click on navigation links
 
-Links navigate to Homepage and Experience page respectively.
+Navigates correctly
 
-Goes to page.
+Works as expected
 
-Pass
+ Pass
 
 
 
@@ -127,69 +95,69 @@ Pass
 
 Form Functionality
 
-Fill in the contact form with valid data and click "Submit".
+Submit contact form with valid data
 
-Form submits without errors (if integrated).
+Form submits without errors
 
-“This form is not secure - autofill has been turned off”.
+Shows a warning
 
-Fail
+ Fail
 
-Not functional
+Form is non-functional
 
 5
 
-Button
+CV Download Button
 
-Click on button to download CV
+Click the button to download CV
 
-CV downloads in PDF format.
+CV downloads as PDF
 
-CV can be downloaded.
+Works as expected
 
-Pass
+ Pass
 
 
 
 6
 
-Responsive Design (Mobile)
+Mobile Responsiveness
 
-View the website on a mobile device.
+View site on a mobile device
 
-The layout adapts to a mobile screen.
+Layout adapts correctly
 
-This works.
+Works as expected
 
-Pass
+ Pass
 
 
 
 7
 
-Responsive Design (Tablet)
+Tablet Responsiveness
 
-View the website on a tablet.
+View site on a tablet
 
-The layout adapts to a tablet screen.
+Layout adapts correctly
 
-This works.
+Works as expected
 
-Pass
+ Pass
 
 
 
 8
 
-Responsive Design (Desktop)
+Desktop Responsiveness
 
-View the website on a desktop browser at full width.
+View site on a desktop
 
-The layout adapts to a desktop screen.
+Layout adapts correctly
 
-This works.
+Works as expected
 
-Pass
+ Pass
 
 
 
@@ -197,13 +165,13 @@ Pass
 
 Browser Compatibility: Chrome
 
-Open the website in Google Chrome.
+Open site in Chrome
 
-The website displays correctly.
+Displays correctly
 
-This works.
+Works as expected
 
-Pass
+ Pass
 
 
 
@@ -211,13 +179,13 @@ Pass
 
 Browser Compatibility: Edge
 
-Open the website in Microsoft Edge.
+Open site in Edge
 
-The website displays correctly.
+Displays correctly
 
-This works.
+Works as expected
 
-Pass
+ Pass
 
 
 
@@ -225,13 +193,13 @@ Pass
 
 Browser Compatibility: Firefox
 
-Open the website in Mozilla Firefox.
+Open site in Firefox
 
-The website displays correctly.
+Displays correctly
 
-This works.
+Works as expected
 
-Pass
+ Pass
 
 
 
@@ -239,13 +207,13 @@ Pass
 
 Semantic HTML Validation
 
-Use a validator tool to check HTML.
+Run W3C Validator
 
-No errors or warnings.
+No errors
 
-No errors or warnings.
+No errors
 
-Pass
+ Pass
 
 
 
@@ -253,13 +221,13 @@ Pass
 
 CSS Validation
 
-Use a validator tool to check CSS.
+Run CSS Validator
 
-No errors or warnings.
+No errors
 
-No errors.
+No errors
 
-Pass
+ Pass
 
 
 
@@ -267,13 +235,13 @@ Pass
 
 Image Display
 
-Ensure images load properly.
+Ensure images load properly
 
-Images display correctly.
+Images are clear
 
-Displays well.
+Works as expected
 
-Pass
+ Pass
 
 
 
@@ -281,13 +249,13 @@ Pass
 
 Page Titles
 
-Check browser tab titles.
+Check browser tab titles
 
-Each page has a correct title.
+Titles are correct
 
-All titles correct.
+Works as expected
 
-Pass
+ Pass
 
 
 
@@ -295,108 +263,104 @@ Pass
 
 Footer Consistency
 
-Verify footer content is the same across pages.
+Check footer across pages
 
-Footer is consistent.
+Footer is consistent
 
-Checked, same on all pages.
+Works as expected
 
-Pass
+ Pass
 
 
 
 17
 
-Accessibility (Alt Text)
+Alt Text for Images
 
-Ensure all images have alt text.
+Ensure all images have alt text
 
-Images have meaningful alt attributes.
+Images have meaningful alt attributes
 
-Alt text added but not viewable.
+Missing alt text
 
-Fail
+ Fail
 
-Needs further testing.
+Needs fixing
 
 18
 
-Accessibility (Contrast)
+Accessibility Contrast
 
-Check text/background contrast.
+Check text readability
 
-Adequate contrast for readability.
+Good contrast
 
-Good contrast.
+Works as expected
 
-Pass
+ Pass
 
 
 
 19
 
-"Send Message" Button
+Send Message Button
 
-Check if the button sends form data.
+Check if form submits data
 
-Data is sent to the backend.
+Data should be sent to backend
 
-Non-functional.
+Form is just for show
 
-Fail
+ Fail
 
-Only for display.
+No backend integration
 
 20
 
 404 Error Handling
 
-Enter an invalid URL.
+Enter invalid URL
 
-Site shows a user-friendly 404 page.
+Displays a 404 page
 
-404 Error appeared repeatedly.
+Initially failed, now fixed
 
-Fail
+ Pass
 
-Fixed by making the repository public.
+Fixed by changing repo to public
 
-Bugs & Fixes
+ Deployment Instructions
 
-Unresolved Issues
+Commit and push all changes to GitHub.
 
-Contact form submission is not functional.
+Go to GitHub Repository > Settings > Pages.
 
-Image alt text is not appearing as expected.
+Under "Source", select the main branch.
 
-Fixed Issues
+Click Save – GitHub will generate a live link.
 
-404 Error Handling: Resolved by changing repository settings from private to public.
+ Future Improvements
 
-Deployment
+ Improve form functionality (Add backend processing).
 
-The project is deployed using GitHub Pages.
+ Ensure all images have alt text.
 
-Steps to Deploy:
+ Improve accessibility further.
 
-Go to your GitHub repository.
+ Enhance animations and transitions.
+ 
+ Credits & Attribution
 
-Click on "Settings" > "Pages".
+HTML & CSS – Written by Dale Harrison
 
-Under "Source", select "main" (or the appropriate branch).
+Images – Personal images or royalty-free sources.
 
-Click "Save" and wait for GitHub Pages to publish your site.
+Tools Used – W3C Validator, CSS Validator, Google Lighthouse
 
-The live site URL will be displayed at the top of the GitHub Pages settings.
+ Version Control & GitHub
 
-Credits
+GitHub repository: https://github.com/dalemkharrison/daleresume2/
 
-Resources Used
+Used meaningful commit messages to track progress.
 
-W3C Validator for HTML validation
-
-Jigsaw CSS Validator for CSS validation
-
-Code.org Game Lab for JavaScript inspiration
-
-Stack Overflow for debugging help
+All changes are properly documented.
